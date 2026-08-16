@@ -1,0 +1,6 @@
+Finding Hidden Pages
+To find hidden pages using Dirbuster, we will use dirb and the URL that we wish to search:
+
+
+dirb http://fakebank.thm
+Any lines from the output that start with + are pages that have been found. Dirb will find two URLs.
