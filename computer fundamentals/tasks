@@ -1,0 +1,22 @@
+Task 1
+Introduction
+Sophia was trying to connect a new device to her home’s WiFi when she noticed something unexpected: “NexusCool Fridge X17.” She laughed and wondered if connecting to the NexusCool Fridge X17 WiFi would let her download a cold meal. Setting the joke aside, she soon realized her neighbor had bought a smart refrigerator, a fridge with a built-in computer capable of connecting to the internet. It made her pause. Computers were no longer just laptops and phones. They were quietly infiltrating everyday objects, from kitchen appliances to doorbells. Sophia had seen strange stories online about smart devices behaving badly, but she had never really stopped to think about what these machines actually were.
+
+She looked forward to learning more about computers during her upcoming summer internship.
+
+Learning Objectives
+Upon completion of this room, you will be able to identify and distinguish between different types of computers you use directly, such as laptops and smartphones, and indirectly, such as servers, IoT devices, and embedded systems. You will also understand what makes each type suited to its purpose.
+ Task 2: Sophia's Summer of Hidden Computers – Month 1
+Question: Which computer type usually runs without a dedicated screen and keyboard?
+Answer: server
+Question: What kind of computer with specialized components would one buy to carry out precision work?
+Answer: workstation
+2. Task 3: Sophia's Summer of Hidden Computers – Month 2
+Question: What is the currently most popular pocket-sized computer?
+Answer: smartphone
+Question: What kind of computer would you expect to find in a coffee machine?
+Answer: embedded computer
+3. Task 4: Why Computers Come in Different Flavors
+Simulation: Click View Site to match different computers to their design constraints and flavor descriptions.
+Question: What is the flag?
+Answer: THM{8_computer_types}  
