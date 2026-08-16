@@ -1,0 +1,45 @@
+# TryHackMe: Introduction to Offensive Security
+
+Notes and task walkthroughs for the [Introduction to Offensive Security](https://tryhackme.com/room/offensivesecurityintro) room.
+
+---
+
+## Task 1: Think like a Hacker!
+This task introduces the concept of **Offensive Security**, which is about proactively simulating an attacker's actions to find weaknesses and improve defenses before malicious actors exploit them.
+
+* **Question:** Which term describes simulating a hacker's actions to find weaknesses?
+* **Answer:** `Offensive Security`
+
+---
+
+## Task 2: Starting the Lab
+This task guides you through launching the TryHackMe virtual machine/lab and loading the target environment containing **FakeBank** (a simulated banking application).
+
+* **Question:** What is the bank account number in the FakeBank application?
+* **Answer:** `8881` *(Your personal account number displayed on the FakeBank landing page)*
+
+---
+
+## Task 3: Find Hidden Pages
+This task introduces directory brute-forcing/enumeration using command-line tools like `dirb` or `gobuster` to find hidden URLs that are not linked on the main site.
+
+* **Command to run in the lab terminal:**
+  ```bash
+  dirb http://fakebank.thm
+  ```
+* **Question:** Dirb found one URL, `http://fakebank.thm/images`. What is the other hidden URL?
+* **Answer:** `/bank-transfer` *(or `bank-transfer`)*
+
+---
+
+## Task 4: Attack the Admin Page
+This task demonstrates how access control vulnerabilities can be exploited using the discovered hidden `/bank-transfer` page to transfer funds unauthorized.
+
+* **Steps to execute:**
+  1. Open the browser inside the lab machine.
+  2. Navigate to `http://fakebank.thm/bank-transfer`.
+  3. Transfer **$2000** from account **2276** (the target account) to your account (**8881**).
+  4. Return to your main bank dashboard page (or refresh it) to see the updated balance.
+  5. The flag will appear at the top of the dashboard page.
+* **Question:** If you transfer money to your account, what is the flag you get?
+* **Answer:** `THM{BANK_HACKED}`
