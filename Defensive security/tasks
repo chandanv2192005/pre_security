@@ -1,0 +1,21 @@
+1. Task 1: Introduction to Defensive Security
+Concepts: Explains defensive security (Blue Teaming) and its main objectives.
+Question: Which team focuses on defensive security?
+Answer: Blue Team
+2. Task 2: Areas of Defensive Security
+Concepts: Covers SOC roles, DFIR, and malware types.
+Question: What would you call a team of cyber security professionals that monitors a network and its systems for malicious events?
+Answer: Security Operations Center (or SOC)
+Question: What does DFIR stand for?
+Answer: Digital Forensics and Incident Response
+Question: Which kind of malware requires the user to pay money to regain access to their files?
+Answer: Ransomware
+3. Task 3: Practical Example of Defensive Security
+Concepts: Acting as a SOC analyst to inspect SIEM logs, analyze a malicious IP address, escalate, and block it at the firewall.
+Steps:
+Click View Site to load the SIEM dashboard simulation.
+Locate the suspicious log alert (typically involving IP 143.110.250.149).
+Scan the IP and escalate the alert.
+Access the firewall rule interface and block the malicious IP.
+Question: What is the flag?
+Answer: THM{THREAT-BLOCKED}
