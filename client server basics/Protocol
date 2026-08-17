@@ -1,0 +1,11 @@
+A network protocol is simply a shared set of rules and a common language that two computers agree to use so they can talk to each other and understand each other without confusion.
+
+One of the things we don't often realize, until we go on a trip to a foreign country, is our language. When Alice formulates her request to Bob, she uses the language Luigi's Pizza understands. Additionally, Alice uses the menu to determine which orders she can place. Bob understood the request (language and order) and went to Luigi's to bring it; he received a response he understood and brought it back to Alice.
+
+We can compare Bob to a protocol that computer systems use to communicate. A protocol defines how a client can communicate with a server. This definition includes:
+
+Which commands do the client and server understand. E.g., the get command.
+How a request is structured. E.g., first the command and then the order.
+What syntax is used. E.g., Alice uses the English language.
+What response should be given to which type of request. E.g., a request for pizza results in receiving the available pizza.
+What response to give to faulty requests. E.g., the server at Luigi's Pizzas says: No pepereonni pizza available
