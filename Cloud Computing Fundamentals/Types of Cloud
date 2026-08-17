@@ -1,0 +1,25 @@
+Public Cloud
+[ Your Company ]   [ Company B ]   [ Company C ]
+       │                 │               │
+       └─────────────────┼───────────────┘
+                         ▼
+        ┌────────────────────────────────┐
+        │       Shared Data Center       │
+        │  (AWS, Google Cloud, Azure)    │
+        └────────────────────────────────┘
+
+Private Cloud
+              [ Your Company ONLY ]
+                        │
+                        ▼
+        ┌────────────────────────────────┐
+        │     Dedicated Infrastructure   │
+        │  (On-Premises or Hosted Solely)│
+        └────────────────────────────────┘
+
+Hybrid Cloud
+┌─────────────────────────┐             ┌─────────────────────────┐
+│     Private Cloud       │ ◄─────────► │      Public Cloud       │
+│  (Customer SPII / DBs)  │   Secure    │  (Web Apps / Analytics) │
+└─────────────────────────┘  Encrypted  └─────────────────────────┘
+                              Tunnel
