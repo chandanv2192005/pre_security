@@ -1,0 +1,18 @@
+Infrastructure as a Service (IaaS)
+The Analogy: Renting a standard car. The rental agency provides the vehicle, engine, tires, and maintenance. However, you must drive it, choose the route, buy the gas, and ensure you don't crash.
+
+What You Get: Empty virtual hardware — raw virtual machines, hard drives, and network routers.
+
+Who Manages What:
+
+Provider handles: Physical servers, cooling, electricity, hypervisors, and data center security.
+
+You handle: Installing/updating the Operating System (Linux/Windows), applying security patches, configuring firewalls, and installing software.
+
+Real-World Examples:
+
+Amazon EC2 (AWS): Spinning up a blank Ubuntu virtual server.
+
+Google Compute Engine (GCE): Provisioning raw computing instances.
+
+Microsoft Azure Virtual Machines.
