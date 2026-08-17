@@ -1,0 +1,14 @@
+When you visit [https://example.com/about](https://example.com/about), your browser sends plain-text headers like this:
+
+GET /about HTTP/1.1
+Host: example.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64)
+Accept: text/html,application/xhtml+xml
+
+GET: The action verb (HTTP Method).
+
+/about: The path to the specific resource requested.
+
+HTTP/1.1: The protocol version.
+
+Host:: The server domain name.
