@@ -1,0 +1,4 @@
+Alice requested a large pepperoni pizza from Luigi's. Be careful, this request was not made to Bob. Bob was the one who brought the request to Luigi's. What is important to realize is that if the request is not formatted correctly or the requested resource is unavailable, we will get an error response. For example, Bob returns to Alice with the message that there were no pepperoni pizzas or that the server did not understand the order.
+
+In computer systems, we can say that Alice used a browser (the client) to request a webpage from a server, which then sent the webpage to the client.
+
