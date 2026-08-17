@@ -1,0 +1,12 @@
+Before the concept of virtualization, the rule of thumb in IT was:
+“One server = one application.”
+
+In the early days, digital services were run on physical machines, and each machine typically had a single, clear purpose, such as hosting a website or storing data. As businesses added more services, they naturally increased the number of physical servers, and the “one job per box” approach became the standard for building reliable systems.
+
+This meant that if a company wanted to run a website, a database, an email service, and an internal app, they would need separate physical servers for each one. The problems were obvious:
+
+High cost: Buying multiple physical servers is expensive, not just the hardware, but also electricity, cooling, maintenance, and data center space.
+Low utilization: Most applications don’t use the server’s full capacity. Many servers stayed at 5–20% usage, wasting CPU, memory, and storage resources.
+Slow deployment: Setting up new physical servers could take days or weeks.
+Hard to scale: If an application suddenly needed more resources, you often had to buy yet another server.
+In short, companies were paying a lot for hardware that wasn’t being fully utilized.
