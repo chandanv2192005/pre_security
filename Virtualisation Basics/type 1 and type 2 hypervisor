@@ -1,0 +1,48 @@
+Type 1 Hypervisor (Bare-Metal)
+
+┌──────────────────────────────────────┐
+│  [ Guest VM 1 ]    [ Guest VM 2 ]    │  <-- Virtual Machines (Windows, Linux)
+├──────────────────────────────────────┤
+│         Type 1 Hypervisor            │  <-- Directly controls hardware (No host OS)
+├──────────────────────────────────────┤
+│       Physical Hardware (CPU/RAM)    │  <-- Bare-metal server
+└──────────────────────────────────────┘
+
+What It Means
+"Bare-Metal": It is installed directly onto the empty hard drive of a physical server. It replaces the standard operating system.
+
+No Middleman: When the machine boots, the hypervisor loads first. It speaks directly to the CPU, memory, and network cards without needing Windows or macOS underneath.
+
+Why It Is "Fast, Efficient, and for Professional Environments"
+Maximum Performance: There are no background desktop apps, graphical interfaces, or system bloat consuming RAM and CPU cycles. Nearly 100% of the hardware power is dedicated to running VMs.
+
+High Security & Stability: Because there is no general-purpose host OS underneath, there are fewer software bugs and a much smaller attack surface. If one VM crashes or gets infected, the others keep running untouched.
+
+Where It Is Used: Data centers, enterprise server racks, and cloud infrastructure (AWS EC2, Google Cloud, Microsoft Azure).
+
+Industry Examples: VMware ESXi, Proxmox VE, Microsoft Hyper-V Server, KVM.
+
+. Type 2 Hypervisor (Hosted)
+
+┌──────────────────────────────────────┐
+│  [ Guest VM 1 ]    [ Guest VM 2 ]    │  <-- Virtual Machines (Kali Linux, Ubuntu)
+├──────────────────────────────────────┤
+│         Type 2 Hypervisor            │  <-- Application (VirtualBox, VMware Fusion)
+├──────────────────────────────────────┤
+│        Host OS (Windows / macOS)     │  <-- Everyday operating system
+├──────────────────────────────────────┤
+│       Physical Hardware (CPU/RAM)    │  <-- Your laptop/PC
+
+What It Means
+"Hosted": It runs as a regular desktop program inside your existing operating system (the "Host OS"), just like a web browser or media player.
+
+Layered Communication: When a virtual machine needs CPU or RAM, the request travels:
+
+Why It Is "Easier to Install and Ideal for Learning & Testing"
+Zero Disruption to Your Daily System: You do not need a dedicated server or a wiped hard drive. You download an installer, click install, and run a virtual machine inside a desktop window while keeping your notes, browser, and music open.
+
+Safe Sandbox for Practice: If you are testing malware or running risky Linux commands in the VM and break the system, you can instantly revert to a clean snapshot. Your host computer remains unaffected.
+
+The Trade-Off (Overhead): Because the request must pass through the Host OS first, it runs noticeably slower than a bare-metal setup.
+
+Industry Examples: Oracle VM VirtualBox, VMware Workstation Pro / Fusion, UTM, Parallels Desktop.
