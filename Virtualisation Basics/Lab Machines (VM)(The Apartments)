@@ -1,0 +1,12 @@
+A Lab Machine (VM) is a virtual computer created by the hypervisor.
+Even though it’s virtual, it behaves as a real machine:
+
+It has its own virtual CPU, RAM, storage, and network.
+It can run any operating system (Windows, Linux, etc.).
+It’s completely isolated from other VMs. This means that if one VM breaks, the others continue to work.
+You can deploy VMs on your own computer using tools such as Oracle VirtualBox and VMware Workstation. This type of software acts as a type 2 hypervisor and lets you run multiple operating systems, such as Windows, Linux, and macOS.
+
+Since you have learned what a hypervisor and VM are, let's take some examples where you might need them:
+
+You need to work on a different OS like Kali Linux, but you can't buy another whole system, so you install a hypervisor and run a Kali Linux VM on it.
+You want to test whether a file is malicious, so you set up an isolated lab machine to protect your main computer from being infected.
