@@ -1,0 +1,6 @@
+| Dimension | IaaS | PaaS | SaaS |
+| :--- | :--- | :--- | :--- |
+| **Control Level** | Maximum control over OS & stack | Control over code & data only | Control over user settings only |
+| **Maintenance Burden** | High (patch OS, configure networking) | Low (no OS or server maintenance) | Zero (provider handles all updates) |
+| **Primary Audience** | System Administrators, Cloud Architects | Software Developers | End Users, Everyday Employees |
+| **Analogy** | Rental Car | Taxi / Ride-share | Public Bus |
