@@ -1,0 +1,16 @@
+Platform as a Service (PaaS)
+The Analogy: Taking a Taxi or Uber. You don't own the car, you don't drive, and you don't worry about changing the engine oil. You just tell the driver where to go and sit in the back.
+
+What You Get: A ready-to-use development environment. The operating system, database engine, and runtime (like Python, Node.js, or Java) are already installed and configured.
+
+Who Manages What:
+
+Provider handles: Physical hardware, OS patches, runtime environments, network setup, and automatic scaling.
+
+You handle: Writing your code and deploying your application data.
+
+Real-World Examples:
+
+Google App Engine / AWS Elastic Beanstalk: You upload your Python code, and the cloud runs and scales it automatically without you ever seeing a Linux command line.
+
+Heroku / Vercel: Platforms where developers push code and the website goes live immediately.
