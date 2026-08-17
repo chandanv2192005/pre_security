@@ -1,0 +1,24 @@
+Virtualization introduced a new idea:
+“What if multiple applications could share the same physical server safely?”
+
+A virtualization layer, called a hypervisor, was introduced to act as a referee between lab machines and allow each virtual computer to behave independently, like a physical computer.
+
+The Building Analogy
+Imagine if one single person lives alone in an entire 10-floor building:
+
+The person uses only one floor but must maintain the entire building: electricity, cleaning, water, and security.
+Most of the building stays empty and wasted.
+It’s expensive, inefficient, and unnecessary for his needs.
+Now imagine dividing the building into separate apartments:
+
+Each apartment has its own door, walls, kitchen, and privacy.
+Different people can live independently without bothering each other.
+They all share the building’s main structure: electricity, water, and elevators, making it cheaper and more efficient for everyone.
+
+This is virtualization:
+
+The building = the physical server
+The apartments = lab machines
+The tenants = applications or operating systems
+The building manager = the hypervisor (the software that divides the building safely)
+Each virtual computer, known as a Lab Machine (VM), acts as an independent system with its own operating system, apps, and settings, even though they all share the same physical hardware underneath.
