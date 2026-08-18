@@ -1,0 +1,9 @@
+An operating system (OS) is the core software that coordinates everything happening on a computer. It sits between the user, applications, and the system’s physical hardware, acting as the invisible manager that keeps the entire machine running as one unified system.
+
+A visual diagram illustrating the layers of a computer with the physical hardware on the bottom, operating system second, the applications third, and the user on top.
+
+A helpful analogy is to think of your computer as a busy airport, with all its components functioning together.
+
+Your hardware (CPU, RAM, storage, connected devices): The runways, airplanes, fuel systems, radar, and other physical infrastructure.
+Your applications (web browser, game launcher): The various airlines and their passengers, all trying to take off, land, and request services.
+Your operating system (Windows, Linux, macOS): The entire air traffic control system, directing all of this activity. It schedules resources, manages traffic, resolves conflicts, and ensures safety.
