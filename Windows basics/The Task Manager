@@ -1,0 +1,9 @@
+Task Manager is a built-in Windows tool that allows you to monitor what is happening on your system in real time. It allows you to view running applications and background processes, as well as check system performance, including CPU and memory usage. A shortcut to Task Manager has been placed on your workstation's Desktop. Go ahead and open it now to view your currently running applications and check on your system's performance.
+
+Task Manager has five tabs to help you keep track of your system.
+
+Processes: Currently running apps and background processes, and their resource usage
+Performance: Graphs and statistics for system resources such as CPU, memory, and network
+Users: Currently logged-in users and used resources 
+Details: A more technical view of running processes, including process IDs (PIDs)
+Services: Windows services and their current status (running or stopped)
