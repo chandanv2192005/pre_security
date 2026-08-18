@@ -1,0 +1,13 @@
+Great, now we have an understanding of the system we are working with. Let’s take a look at how Windows handles file exploration and management as we access some of the onboarding documents for your new position. Before we dive into using File Explorer, let’s quickly cover how Windows organizes files and directories. Windows uses a hierarchical folder structure, meaning folders can contain other folders and files inside them. This structure helps keep data organized and makes it easier to locate information as systems grow larger. Common locations, such as the Desktop, Documents, and Downloads, serve as primary directories for storing files. Within these locations, subfolders are used to group related files together. Understanding this layout will make navigating the system and managing files much easier.
+
+If we continue the airport analogy, File Explorer acts as the directory and floor map of the terminal, helping you navigate between different areas and locate what you need.
+
+You can now open the TryHatMe Onboarding folder on the Desktop. Alternatively, you can open the File Explorer application, which is pinned to the Taskbar, or use the Start menu to locate the folder.
+
+Open the TryHatMe Onboarding folder on your Desktop
+This opens the folder in the Windows File Explorer
+Options for viewing, sharing, and editing folders and files
+Clicking the folder name will show us the full path to the chosen folder
+C:\Users\Administrator\Desktop\TryHatMe Onboarding
+The displayed contents of our chosen folder
+We can use the File Explorer's built-in search function to search our folder
