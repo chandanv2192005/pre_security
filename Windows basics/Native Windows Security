@@ -1,0 +1,23 @@
+Native Windows Security
+Windows offers built-in security tools designed to help protect your system from threats such as malware, insecure applications, and unauthorized network access. These are enabled by default and allow the monitoring and control of your system's security. 
+
+Windows Security
+
+The Windows Security application is your central dashboard for managing Windows' built-in protection measures. It is divided into four main sections, each focusing on a different area of system security.
+
+Virus & threat protection: Helps detect and remove malicious software using real-time protection and customizable scans
+Firewall & network protection: Controls incoming and outgoing network traffic to help prevent unauthorized access
+App & browser control: Protects users from potentially unsafe apps, files, and websites
+Device security: Provides hardware-based protections that help secure the system
+Let's take a closer look at the Virus & threat protection section of Windows Security on your workstation. Go ahead and open it up using the Desktop shortcut or via the Start menu now. Next, we will run a custom scan of your onboarding folder to ensure that there are no malicious files present. 
+
+Open Windows Security using the shortcut on your Desktop
+Select the Virus & Threat protection section
+Choose Scan options
+Select Custom scan, then Scan now
+Select the TryHatMe Onboarding folder on your Desktop as the target of your scan
+A composite screenshot of the Windows Security Desktop shortcut, the Windows Security application highlighting virus & threat protection, the scan options, custom scan, and target folder for the scan.
+
+Your custom scan will have found a completely safe test file, and this process shows how Windows is capable of scanning for and detecting threats. Keep in mind that this is just one aspect of the security measures Windows has in place to help you secure your system. Go ahead and click See details to investigate the file and answer the final question of the task.
+
+A screenshot of the scan options page in Windows security highlighting the severity level and see details option.
