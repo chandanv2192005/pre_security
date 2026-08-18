@@ -1,0 +1,3 @@
+nstance types describe how powerful the virtual computer is. Some have more CPU and RAM and are therefore more expensive. You choose the Instance Type based on your needs, knowing that:
+Bigger instances = more power + higher cost
+Minor instances = less power + lower cost
