@@ -1,0 +1,104 @@
+Applications are the programs and tools you use to perform tasks on your computer, from browsing the web and editing photos to managing settings on your PC. We already discussed a few of the built-in applications Windows provides, but knowing how to install, update, and remove applications is a core skill for everyday Windows use. Let's briefly revisit the airport analogy to gain a better understanding of this concept. Updating your OS or apps is like changing flights or reserving a seat. Installing a new app is comparable to scheduling a new flight, and removing apps is like canceling a booking you no longer need. These three processes enable you to make the necessary changes to your system, ensuring you have exactly what you need and that your system remains secure.
+
+Updating Your Applications
+Keeping your operating system and applications up to date is an important part of maintaining a secure and stable system. Updates will often include security patches, performance updates, and bug fixes.
+
+Windows Updates
+
+Windows includes a built-in update tool called Windows Update, which keeps the OS and some native applications and security features up to date. Windows Update can be accessed through the Settings app and may install updates automatically, depending on your configuration.
+
+A composite screenshot of Check for updates in System settings with the Windows Update page in Settings showing the current available updates.
+
+Updating Applications
+
+Application updates work differently depending on how the software is installed.
+
+Built-in applications may update automatically in the background
+Third-party applications often include their own update mechanisms
+Some applications will prompt you to update upon launch
+Some require you to check for updates or download a new installer manually
+Installing Applications
+Now that you've seen how updates work within the Windows OS and for applications, let's take a look at installing new ones.
+
+Microsoft Store: Provides a curated and safe option for installing apps to Windows, although it is not available by default on Windows Server
+From the Internet: In many environments, apps are installed by downloading an installer directly from a trusted vendor's website. They usually come in an .exe or .msi file and guide the user through the installation process
+A composite screenshot of the Microsoft Store application and Windows download page for 7-Zip.
+
+Hands-On Installation
+
+Great, now you have a solid understanding of updating and installing new applications within a Windows environment. Let's get hands-on and install an app!
+
+Within the TryHatMe Onboarding folder on your Desktop, you'll find an installer named TryHatMeWelcome
+Proceed by double-clicking the installer to start the installation process, then answer the first question of the task
+Note: Feel free to click through the installation options; remember that this is a virtual environment, safe for testing and experimentation.
+
+A screenshot of the TryHatMe Onboarding folder on the Windows desktop and the folder open, highlighting the application installer for TryHatMeWelcome.
+
+Uninstalling Applications
+In a Windows environment, there are multiple ways to uninstall programs.
+
+Using the Microsoft Store for installed applications
+Add or remove programs feature in system settings
+Uninstall a program section of the Control Panel
+Using an application's built-in uninstaller
+A composite screenshot of the add or remove program feature and the Control Panel, highlighting Uninstall a program.
+
+Diving Into Settings
+In the previous task, you explored the About your PC section of Windows settings. Now, we will take a closer look at the abundance of configurations available to us. There are two primary ways in which a Windows user can modify their environment. There are existing shortcuts for each of the tools below placed on your Desktop.
+
+Windows Settings: A modern, centralized location for configuring system, device, personalization, and security settings in Windows
+Control Panel: A legacy management interface that provides access to older system configuration tools still required for specific administrative tasks
+Windows Settings and the Control Panel enable you to view and modify how your Windows system operates. From these two applications, you can manage system preferences, including display and audio settings, user accounts, apps, network options, accessibility features, and security configurations.
+
+A composite screenshot of the Windows Settings application and the Control Panel.
+
+The Task Manager
+Task Manager is a built-in Windows tool that allows you to monitor what is happening on your system in real time. It allows you to view running applications and background processes, as well as check system performance, including CPU and memory usage. A shortcut to Task Manager has been placed on your workstation's Desktop. Go ahead and open it now to view your currently running applications and check on your system's performance.
+
+Task Manager has five tabs to help you keep track of your system.
+
+Processes: Currently running apps and background processes, and their resource usage
+Performance: Graphs and statistics for system resources such as CPU, memory, and network
+Users: Currently logged-in users and used resources 
+Details: A more technical view of running processes, including process IDs (PIDs)
+Services: Windows services and their current status (running or stopped)
+A screenshot of the Task Manager desktop shortcut and the Task Manager application with corresponding numbers to the numbered list above.
+
+Native Windows Security
+Windows offers built-in security tools designed to help protect your system from threats such as malware, insecure applications, and unauthorized network access. These are enabled by default and allow the monitoring and control of your system's security. 
+
+Windows Security
+
+The Windows Security application is your central dashboard for managing Windows' built-in protection measures. It is divided into four main sections, each focusing on a different area of system security.
+
+Virus & threat protection: Helps detect and remove malicious software using real-time protection and customizable scans
+Firewall & network protection: Controls incoming and outgoing network traffic to help prevent unauthorized access
+App & browser control: Protects users from potentially unsafe apps, files, and websites
+Device security: Provides hardware-based protections that help secure the system
+Let's take a closer look at the Virus & threat protection section of Windows Security on your workstation. Go ahead and open it up using the Desktop shortcut or via the Start menu now. Next, we will run a custom scan of your onboarding folder to ensure that there are no malicious files present. 
+
+Open Windows Security using the shortcut on your Desktop
+Select the Virus & Threat protection section
+Choose Scan options
+Select Custom scan, then Scan now
+Select the TryHatMe Onboarding folder on your Desktop as the target of your scan
+A composite screenshot of the Windows Security Desktop shortcut, the Windows Security application highlighting virus & threat protection, the scan options, custom scan, and target folder for the scan.
+
+Your custom scan will have found a completely safe test file, and this process shows how Windows is capable of scanning for and detecting threats. Keep in mind that this is just one aspect of the security measures Windows has in place to help you secure your system. Go ahead and click See details to investigate the file and answer the final question of the task.
+
+A screenshot of the scan options page in Windows security highlighting the severity level and see details option.
+
+Windows Defender Firewall
+Windows Defender Firewall is a built-in firewall designed to help protect your computer from unauthorized network traffic. It monitors network connections and applies rules that determine whether the connections are allowed or denied. The firewall operates on different network profiles, allowing you to create custom rules or specify applications that are permitted.
+
+Domain: Used when a system is connected to an organization’s domain network
+Private: Intended for trusted networks, such as a home or lab environment 
+Public: Used for untrusted networks, such as public Wi-Fi
+A composite screenshot of the Windows Defender Firewall application alongside a list of allowed apps from the firewall.
+
+Checking out the Advanced settings of Windows Defender Firewall, you can view
+
+An overview of your firewall's inbound, outbound, and connection rules
+A detailed view of each rule, including name, group, network profile, status, and action
+Create new rules or filter your current view
+A screenshot of the Windows Defender Firewall application showing advanced settings with a numbers referencing the corresponding task numbered list.
