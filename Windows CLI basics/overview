@@ -1,0 +1,23 @@
+Overview
+You’ve reached the end of this room - nice work.
+
+In this room, we learned how to interact with a Windows system using the command line instead of relying on the graphical interface. This task is a short wrap-up to reflect on what you’ve learned and why it’s important.
+
+What You Learned
+In this room, you practiced using the Windows Command Prompt to:
+
+Navigate files and folders without clicking
+Locate files even when you didn’t know where they were
+Reveal hidden files and directories
+Read file contents directly from the terminal
+Gather basic system and network information
+These are foundational skills that apply across many roles in IT and cybersecurity.
+
+Why This Matters
+In real-world environments:
+
+Not everything is visible in the graphical interface
+Files may be hidden or buried deep in the system
+Analysts often need quick answers without clicking through menus
+Command-line tools are faster, more precise, and easier to automate
+Being comfortable with the Windows command line gives you more control and better visibility into a system.
