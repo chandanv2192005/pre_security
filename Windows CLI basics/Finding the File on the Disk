@@ -1,0 +1,6 @@
+nstead of guessing where the file is, let Windows search for it. Use the following command: dir /s task_brief.txt. The /s flag tells Windows to search all subfolders starting from your current directory and show you the full path if the file exists.
+
+Shows the command to search for the files on the system
+
+As we can see, the command above helped us locate the file and provided its full path. Take note of the path shown in the output.
+
