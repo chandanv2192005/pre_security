@@ -1,0 +1,33 @@
+Linux stores configuration and informational files in the /etc directory.
+To practice navigating and reading files, head into /etc by running cd /etc and then list what’s inside: ls
+
+
+cd Command
+ubuntu@tryhackme:~$ cd /etc
+ubuntu@tryhackme:/etc$ ls
+ImageMagick-6                  cloud                 firefox               hp               logcheck              opt                     rmt                sysctl.d
+ModemManager                   compizconfig          fonts                 ifplugd          login.defs            os-release              rpc                sysstat
+NetworkManager                 console-setup         fstab                 init             logrotate.conf        overlayroot.conf        rsyslog.conf       systemd
+---
+-------
+chatscripts                    ethertypes            hosts.deny            localtime        openvpn               resolv.conf             sysctl.conf
+ubuntu@tryhackme:/etc$ 
+Let’s now use cat to read the os-release file that almost every Linux system contains: cat os-release, as shown below:
+
+
+ cat Command
+ubuntu@tryhackme:/etc$ cat os-release 
+PRETTY_NAME="Ubuntu 24.04.1 LTS"
+NAME="Ubuntu"
+VERSION_ID="24.04"
+VERSION="24.04.1 LTS (Noble Numbat)"
+VERSION_CODENAME=noble
+ID=ubuntu
+ID_LIKE=debian
+HOME_URL="https://www.ubuntu.com/"
+SUPPORT_URL="https://help.ubuntu.com/"
+BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
+PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
+UBUNTU_CODENAME=noble
+LOGO=ubuntu-logo
+This file provides details about the Linux distribution that are often clearer than those provided by the uname command.
