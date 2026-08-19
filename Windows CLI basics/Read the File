@@ -1,0 +1,9 @@
+Now read the contents of the file using: type task_brief.txt. This will print the contents of the file directly in the command prompt, as shown below:
+
+Shows the use of type command to read the file content
+
+Perfect.
+
+You have not only learned how to navigate Windows directories using the CLI, but also how to find files and read their contents. 
+
+The content of task_brief.txt leads us to our next task: inquiring about the system we are currently using. Let's explore that in the next task.
