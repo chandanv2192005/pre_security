@@ -1,0 +1,5 @@
+Some files and folders on Windows are marked as hidden, which means they don't appear in a normal listing. To show everything, including hidden items, run: dir /a
+
+Shows output of dir/a command
+
+The output clearly indicates that more than 12 hidden folders were found. It is important to note that hidden doesn't mean secret; it just means Windows hides them by default.
