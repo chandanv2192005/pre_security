@@ -1,0 +1,12 @@
+Finally, let’s look at basic network information. Run: ipconfig
+
+This shows the machine's network configuration.
+
+Look for:
+
+An IPv4 Address
+A Default Gateway
+
+
+This information helps analysts understand how a machine connects to the network.
+
