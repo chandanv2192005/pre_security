@@ -1,0 +1,15 @@
+To see details about the operating system, kernel version, and architecture, use: uname -a
+
+
+uname -a Command
+ubuntu@tryhackme:~$ uname -a
+Linux tryhackme <REDACTED>-aws #17-Ubuntu SMP Mon Sep  2 13:48:07 UTC 2024 x86_64 x86_64 x86_64 GNU/Linux
+This gives a full line of system information - great for understanding exactly what environment you're working in.
+
+Breakdown of the Information
+
+Linux: The system is running the Linux kernel.
+tryhackme: The hostname (the computer’s name).
+<REDACTED>-aws: The kernel version installed on the machine.
+x86_64: The hardware platform (also 64-bit).
+GNU/Linux: The operating system type (Linux kernel + GNU tools).
