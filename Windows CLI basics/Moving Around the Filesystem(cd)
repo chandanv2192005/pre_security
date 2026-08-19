@@ -1,0 +1,5 @@
+Let's use the cd command to navigate through the folders. We can use the format cd folder_name to move to the specified folder. The command cd Documents will move us to the Documents folder, as shown below. To move back one level, we can use the cd command.
+
+Shows the output of cd command
+
+To become familiar with the environment, use the dir or dir /a command to move to see what's inside each folder. You can explore a few folders to get comfortable, but the file you're looking for probably isn't in an obvious place.
