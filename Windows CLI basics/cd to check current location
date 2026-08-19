@@ -1,0 +1,5 @@
+Before doing anything else, open the terminal on the Desktop, and check your current location by typing the command cd, as shown below: 
+
+Shows output of cd command
+
+This shows the full path of the directory you're currently in. On Windows, this is usually your user folder. Please note that the cd command is also used to change the directory, which we will use later in the task.
