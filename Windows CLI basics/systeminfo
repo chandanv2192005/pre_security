@@ -1,0 +1,12 @@
+ext, let’s look at details about the operating system itself. Run:systeminfo
+
+This command prints a lot of information. Don’t worry, you’re not expected to understand everything yet.
+
+
+
+Focus on these parts:
+
+OS Name
+OS Version
+System Type
+These details indicate the version of Windows the machine is running and whether it’s 32-bit or 64-bit.
