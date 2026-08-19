@@ -1,0 +1,16 @@
+Another useful utility is cat. This is used to read the content of the file. To read this file, we will run the command cat mission_brief.txt to get the content, as shown below:
+
+
+cat Command
+ubuntu@tryhackme:~/<REDACTED-PATH>$ cat mission_brief.txt 
+Great job finding your way around the terminal.
+
+Your next assignment is to collect a small system report:
+- Who you're logged in as
+- The kernel version
+- Total disk space
+- The name of this Linux distribution
+
+Once you gather those details, you'll be ready for the next step.
+
+FLAG:<REDACTED>
