@@ -1,0 +1,22 @@
+Hidden Files
+
+In order to get the hidden files in the directory, we can append the command to ls -al, and it will display all the hidden files present in the directory, as shown below:
+
+
+ls -al Command
+ubuntu@tryhackme:~$ ls -al
+total 144
+drwxr-xr-x 24 ubuntu ubuntu  4096 Feb 10 10:48 .
+drwxr-xr-x  3 root   root    4096 Feb 10 10:36 ..
+-rw-------  1 ubuntu ubuntu   439 Feb 10 06:47 .Xauthority
+-rw-rw-r--  1 ubuntu ubuntu     0 Sep 12  2024 .Xresources
+-rw-r--r--  1 ubuntu ubuntu   111 Oct  3  2024 .apport-ignore.xml
+----------
+--------------------
+drwxr-xr-x  2 ubuntu ubuntu  4096 Feb 27  2022 Templates
+drwxr-xr-x  2 ubuntu ubuntu  4096 Feb 27  2022 Videos
+drwxr-xr-x  4 ubuntu ubuntu  4096 Dec 11 12:29 logs
+drwxr-xr-x  5 ubuntu ubuntu  4096 Dec 11 12:29 projects
+drwx------  3 ubuntu ubuntu  4096 Sep 12  2024 snap
+Hidden files aren't really secret; they start with a dot ., and Linux hides such files by default.
+
