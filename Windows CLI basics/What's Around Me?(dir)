@@ -1,0 +1,7 @@
+ow, list the contents of the current directory using the command: dir
+
+This command will list down the files and the folders present in the current directory, as shown below:
+
+Shows output of dir command
+
+You'll see files and folders that are visible by default. Take a moment to look around; not everything you need will always be obvious. From the output, we can see that the command has returned 16 directories.
