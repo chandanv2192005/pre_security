@@ -1,0 +1,19 @@
+we grouped every 4 bits into a single hexadecimal digit. As we’ve seen earlier, a hexadecimal digit ranges between 0 and F. By taking a closer look at the table below, you will notice that a hexadecimal digit ranges between 0 and 15 in the decimal system. To replace 10, 11, 12, 13, 14, and 15 each with a single letter/digit, A, B, C, D, E, and F are chosen. The table below is something you would encounter in any tutorial or chapter on the hexadecimal system.
+
+Decimal Number	Hexadecimal Digit	Binary Representation
+0	0	0000
+1	1	0001
+2	2	0010
+3	3	0011
+4	4	0100
+5	5	0101
+6	6	0110
+7	7	0111
+8	8	1000
+9	9	1001
+10	A	1010
+11	B	1011
+12	C	1100
+13	D	1101
+14	E	1110
+15	F	1111
