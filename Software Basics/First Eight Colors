@@ -1,0 +1,27 @@
+By combining different amounts of red, green, and blue lights, you can get any color you like. In computer colors, think of it like three knobs, and each knob controls one of the three colors.
+
+Example
+
+Let’s say that each of the three colors can be either on or off, i.e., each has two states.
+
+The red light can be either on or off
+The green light can be either on or off
+The blue light can be either on or off
+These states give us 2 × 2 × 2 = 8, that’s eight different colors.
+
+ 3 circles (red, green, and blue) overlapping. 
+
+If a computer were limited to 8 colors, it would only need to indicate which color is “switched on” and which is “switched off.” In fact, it can use three digits of 1 and 0 to represent the states of red, green, and blue. For example, 111 would be all 3 lights switched on, while 100 would be only the red switched on. This digit, which can be either 1 or 0, is called a bit.
+
+Now, a computer can represent any of the 8 colors. If this is still unclear, a detailed list is shown in the table below.
+
+Color Representation	Representation Meaning	Color Name
+000	All colors are off	Black
+001	Only blue is on	Blue
+010	Only green is on	Green
+100	Only red is on	Red
+011	Green and blue are on	Cyan
+101	Red and blue are on	Magenta
+110	Red and green are on	Yellow
+111	All colors are on	White
+We just provided a way to represent a color in a palette of 8 colors.
