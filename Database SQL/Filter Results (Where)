@@ -1,0 +1,13 @@
+The WHERE keyword filters rows. It keeps only rows that match a condition.
+
+Try filtering by drink name:
+
+SELECT * FROM Orders WHERE drink = 'Coffee';
+
+If the database contains coffee orders, you will now see only those rows.
+
+Café SQL app running SELECT * FROM Orders WHERE drink = 'Coffee', returning 10 filtered rows of Coffee orders
+
+Hint: If you are not sure which drink names exist, run:
+
+SELECT * FROM Menu;
