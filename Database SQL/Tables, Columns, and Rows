@@ -1,0 +1,15 @@
+A table resembles a spreadsheet, where information is organised neatly into rows and columns.
+
+Columns are the titles at the top of the table. They describe the type of information stored.
+Rows go across the table. Each row contains one complete set of information.
+For the café example:
+
+Columns might be: order number, drink, price, and time
+Each row is one café order
+This means:
+
+One column stores one type of information, such as prices
+One row stores all the information about a single order
+If the café sells ten drinks in one day, the table will contain ten rows. If one more customer places an order, one more row is added to the table.
+
+If an order is removed, only that row disappears. The rest of the table stays the same.
