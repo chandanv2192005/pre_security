@@ -1,0 +1,14 @@
+The ORDER BY keyword sorts results by a column. By default, results are sorted in ascending order (lowest to highest).
+
+Try sorting orders by price (lowest first):
+
+SELECT * FROM Orders ORDER BY price;
+
+Café SQL app running SELECT * FROM Orders ORDER BY price, returning rows sorted by price from lowest to highest
+
+To sort in reverse order (highest to lowest), add DESC.
+
+Try sorting orders by price (highest first):
+
+SELECT * FROM Orders ORDER BY price DESC;
+
