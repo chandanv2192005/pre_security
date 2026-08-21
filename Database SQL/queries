@@ -1,0 +1,13 @@
+SQL is a language used to ask questions of a database.
+
+Instead of reading the table row by row, SQL lets the computer do the work for us.
+
+For example, the café owner might ask:
+
+“Show me all orders.”
+“Show me only coffee orders.”
+“Show me the cheapest drink.”
+These questions are called queries.
+
+A query does not change the data. It only displays the requested information from the table.
+
