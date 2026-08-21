@@ -1,0 +1,7 @@
+Sometimes we do not need every column. We can choose specific columns by listing them after SELECT.
+
+Try this query:
+
+SELECT drink, price FROM Orders;
+
+This will display only the drink and price columns.
