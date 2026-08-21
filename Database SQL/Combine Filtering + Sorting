@@ -1,0 +1,7 @@
+Most real queries combine parts together. Here, we filter to keep only one drink type and then sort by price.
+
+Try this query:
+
+SELECT * FROM Orders WHERE drink = 'Coffee' ORDER BY price DESC;
+
+Café SQL app running SELECT * FROM Orders WHERE drink = 'Coffee' ORDER BY price DESC, returning 10 Coffee orders sorted by price descending
