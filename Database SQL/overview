@@ -1,0 +1,7 @@
+SELECT – choose what data to display
+
+FROM – choose where the data comes from
+
+WHERE – filter records based on a condition
+
+ORDER BY – sort results
