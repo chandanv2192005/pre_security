@@ -1,0 +1,13 @@
+Orders (id,drink,price,time)
+Menu (drink, price)
+
+
+
+We start with the most basic query. When we use SELECT *, the * symbol means all columns. The word FROM tells the database which table to use.
+
+Try this query:
+
+SELECT * FROM Orders;
+
+Click Run Query. You should see every order currently stored in the database.
+
