@@ -1,0 +1,30 @@
+Why Do We Need Subnetting? (The Real-World Problem)
+Imagine a company buys an entire 256-room hotel building (192.168.1.0/24).
+
+Without Subnetting:
+
+The Finance Team, the HR Team, the Engineering Team, and Public Guest Wi-Fi all share the same hallway.
+
+Every time a computer broadcasts a message (like searching for a printer), all 256 devices receive it, clogging the network with noise.
+
+Major Security Risk: An infected laptop on the Guest Wi-Fi can directly reach HR's database or Finance's payroll servers because there are no boundaries.
+
+With Subnetting:
+
+You install secure keycard doors to divide the building into 4 distinct hallways (Subnets):
+
+Hallway 1: HR
+
+Hallway 2: Finance
+
+Hallway 3: Engineering
+
+Hallway 4: Guests
+
+Devices in HR talk quickly to HR. If a Guest wants to reach Finance, they are blocked by a firewall at the door.
+
+[  Network Portion (Fixed)  ] [ Host Portion (Device IDs) ]
+ 11111111.11111111.11111111 .        00000000
+ └────────── 24 bits ───────┘ └─────── 8 bits ──────────┘
+
+ 
