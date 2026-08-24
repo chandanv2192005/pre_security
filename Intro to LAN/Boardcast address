@@ -1,0 +1,13 @@
+When you first connect your Mac to Wi-Fi and want to reach your router (192.168.1.1):
+
+Your Mac knows the router's IP address is 192.168.1.1, but it does not know the router's physical hardware MAC address yet.
+
+Your Mac cannot whisper directly to the router because it doesn't know where it physically is on the Wi-Fi.
+
+Your Mac sends an ARP request to the Broadcast Address (192.168.1.255):
+
+"Megaphone Shout: Who has IP 192.168.1.1? Tell 192.168.1.8 your hardware address!"
+
+Every phone, TV, and laptop on your Wi-Fi hears the message, sees it isn't meant for them, and ignores it.
+
+The Airtel router hears it and replies: "That's me! Here is my hardware address."
