@@ -1,0 +1,1 @@
+Step A: Borrow 1 BitOriginal prefix: /24Borrow 1 bit: New prefix is /25Subnets created: $2^1 = \mathbf{2 \text{ subnets}}$Remaining host bits: $8 - 1 = 7\text{ bits}$Total IPs per subnet: $2^7 = \mathbf{128 \text{ IPs each}}$
