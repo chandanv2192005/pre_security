@@ -1,0 +1,5 @@
+If your computer broadcasts a DHCPDISCOVER and no server answers, your operating system assigns itself a temporary APIPA (Automatic Private IP Addressing) address:
+
+Any address starting with 169.254.X.X.
+
+What it means: You can talk to other machines on the same switch that also have 169.254.x.x, but you cannot access the internet because you have no Default Gateway or DNS server.
