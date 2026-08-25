@@ -1,0 +1,7 @@
+f multiple routers/servers send offers, your device chooses one (usually the first one that responds).
+
+Your device broadcasts:
+
+"I accept the offer for 192.168.1.8 from DHCP server 192.168.1.1."
+
+Why broadcast this? This lets other DHCP servers know their offers were declined so they can release those reserved IPs back to their pools.
