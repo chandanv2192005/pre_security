@@ -1,0 +1,9 @@
+The DNS resolver queries:
+
+Root Nameservers (.): Points to the .com TLD nameserver.
+
+TLD Nameserver (.com): Points to Google's Authoritative Nameservers.
+
+Authoritative Nameserver (google.com): Replies with the exact IP: 142.250.190.46.
+
+The DNS response returns to your laptop. The browser now knows where to send web traffic.
