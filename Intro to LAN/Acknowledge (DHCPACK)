@@ -1,0 +1,12 @@
+Step 4: Acknowledge (DHCPACK)
+The router sends the final ACK message. This contains the full TCP/IP Configuration Pack:
+
+Assigned IP: 192.168.1.8
+
+Subnet Mask: 255.255.255.0
+
+Default Gateway: 192.168.1.1
+
+DNS Servers: 8.8.8.8 / 1.1.1.1
+
+Lease Time: e.g., 24 hours
