@@ -1,0 +1,12 @@
+DHCP does not give you an IP address permanently; it rents (leases) it to you.
+
+0 Hours                       12 Hours (50% T1)             21.6 Hours (87.5% T2)       24 Hours
+ ├───────────────────────────────────┼──────────────────────────────┼─────────────────────┤
+ Leased                          Renewed                         Rebind                     Expires
+Lease Time: How long you are allowed to keep the IP (e.g., 24 hours for home Wi-Fi; 1–2 hours for an airport or coffee shop).
+
+T1 Timer (50% mark / 12 hours): Your laptop reaches out directly (unicast) to the router asking: "Can I extend my lease?" The router almost always says yes, resetting the timer.
+
+T2 Timer (87.5% mark / 21.6 hours): If the primary router went offline and didn't respond at 50%, your laptop broadcasts to any available DHCP server to keep its connection.
+
+Expiration: If no renewal happens before 24 hours, your laptop drops the IP and starts the DORA process over.
