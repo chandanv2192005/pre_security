@@ -1,0 +1,6 @@
+Step 2: Offer (DHCPOFFER)
+The router (DHCP server) receives the broadcast.
+
+It checks its pool of available IP addresses, reserves one (e.g., 192.168.1.8), and sends an offer back:
+
+"I have 192.168.1.8 available for you."
