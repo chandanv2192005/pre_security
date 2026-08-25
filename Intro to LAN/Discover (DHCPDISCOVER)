@@ -1,0 +1,6 @@
+Step 1: Discover (DHCPDISCOVER)
+Problem: Your laptop has no IP address yet and doesn't know where the DHCP server is.
+
+Action: It sets its source IP to 0.0.0.0 and broadcasts a message to destination 255.255.255.255 on UDP Port 67:
+
+"Hey! I am a new device (MAC address fe:08:7a:...). Is there a DHCP server on this network?"
