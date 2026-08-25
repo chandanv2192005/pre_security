@@ -1,0 +1,12 @@
+[ Application Data ] (Text, Images, Video)
+        │
+        ▼
+┌───────────────────────────────────────────────┐
+│ Layer 6: Presentation Layer                   │
+│  1. Translation (e.g., ASCII, UTF-8, JSON)    │
+│  2. Compression (e.g., Gzip, JPEG, MP4)       │
+│  3. Encryption  (e.g., TLS / SSL)             │
+└───────────────────────────────────────────────┘
+        │
+        ▼
+[ Transport Layer ] (TCP Segments)
