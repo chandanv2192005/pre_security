@@ -1,0 +1,21 @@
+[ Incoming Link ]
+       │
+       ▼
+1. Layer 1 (Physical)      ──► Converts incoming light (fiber) or voltage into binary bits.
+       │
+       ▼
+2. Layer 2 (Data Link)     ──► Checks CRC error checksum, verifies its own MAC, 
+                               and STRIPS the old Layer 2 header.
+       │
+       ▼
+3. Layer 3 (Network)       ──► 1. Decrements TTL by 1 (drops packet if TTL = 0).
+                               2. Reads Destination IP (142.250.190.46).
+                               3. Looks up the next hop in its Routing Table.
+       │
+       ▼
+4. Layer 2 (Re-wrapping)   ──► WRAPS the packet in a BRAND NEW Layer 2 frame:
+                               • Source MAC = This router's exit port MAC.
+                               • Destination MAC = Next router's input port MAC.
+       │
+       ▼
+5. Layer 1 (Transmission)  ──► Converts bits into laser light/voltage and sends it out.
