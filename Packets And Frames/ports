@@ -1,0 +1,12 @@
+[ Your Laptop ]                                              [ Google Server ]
+Tab 1 (YouTube):     Port 51234 ────────┐
+Tab 2 (Gmail):       Port 51235 ────────┼── (All send to) ──► Port 443 (HTTPS)
+Tab 3 (Google Search):Port 51236 ───────┘
+
+
+
+[ Google Server: 142.250.190.46 ]
+  ├── Room 25  (Port 25)  ──► Email Department (SMTP)
+  ├── Room 53  (Port 53)  ──► DNS Department
+  ├── Room 80  (Port 80)  ──► Insecure Web Department (HTTP)
+  └── Room 443 (Port 443) ──► Secure Web Department (HTTPS) ◄── [Your Browser Knocks Here]
