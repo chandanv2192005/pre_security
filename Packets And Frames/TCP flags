@@ -1,0 +1,3 @@
+TCP flags are 1-bit on/off switches located inside the TCP header that tell both computers the intent or status of a packet (e.g., "start connecting", "confirm receipt", or "hang up immediately").
+
+Because each flag is a single bit, its value is either 1 (ON/Set) or 0 (OFF/Not Set). Multiple flags can be turned on at the same time (like SYN + ACK).
