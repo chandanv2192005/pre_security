@@ -1,0 +1,21 @@
+┌─────────────────────────────────────────────────────────────────────────────┐
+│ 1. LAYER 2: ETHERNET FRAME                                                  │
+│    [ Source MAC: Your Laptop | Dest MAC: Your Router ]                      │
+│                                                                             │
+│   ┌─────────────────────────────────────────────────────────────────────┐   │
+│   │ 2. LAYER 3: IP PACKET                                               │   │
+│   │    [ Source IP: 192.168.1.8 | Dest IP: 142.250.190.46 ]            │   │
+│   │                                                                     │   │
+│   │   ┌─────────────────────────────────────────────────────────────┐   │   │
+│   │   │ 3. LAYER 4: TCP SEGMENT                                     │   │   │
+│   │   │    [ Source Port: 51234 | Dest Port: 443 | Flags: SYN ]     │   │   │
+│   │   │                                                             │   │   │
+│   │   │   ┌─────────────────────────────────────────────────────┐   │   │   │
+│   │   │   │ 4. LAYER 7: APPLICATION PAYLOAD                     │   │   │   │
+│   │   │   │    "GET /index.html" (or empty during Handshake)    │   │   │   │
+│   │   │   └─────────────────────────────────────────────────────┘   │   │   │
+│   │   └─────────────────────────────────────────────────────────────┘   │   │
+│   └─────────────────────────────────────────────────────────────────────┘   │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+The IP Packet is the outer shipping box that has the address (192.168.1.8 $\rightarrow$ 142.250.190.46).The TCP Segment is placed inside that IP box. It contains the instructions for the application (Port 443, Sequence #, SYN flag).When a router looks at the box in transit, it only reads the IP header on the outside to figure out where to forward it. It does not open or change the TCP segment nested inside.
