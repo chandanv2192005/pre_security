@@ -1,0 +1,18 @@
+[ Your Laptop ]
+   Src IP: 203.0.113.50 (Post-NAT)  |  Dest IP: 142.250.190.46
+   Src MAC: Laptop MAC               |  Dest MAC: Home Router MAC
+                 │
+                 ▼  (Hop 1: Your Home Router)
+   Src IP: 203.0.113.50             |  Dest IP: 142.250.190.46
+   Src MAC: Home Router WAN MAC     |  Dest MAC: ISP Gateway Router MAC
+                 │
+                 ▼  (Hop 2: ISP Core Router)
+   Src IP: 203.0.113.50             |  Dest IP: 142.250.190.46
+   Src MAC: ISP Router A MAC        |  Dest MAC: ISP Router B MAC
+                 │
+                 ▼  (Hop 3: Internet Exchange / Backbone)
+   Src IP: 203.0.113.50             |  Dest IP: 142.250.190.46
+   Src MAC: Transit Provider MAC    |  Dest MAC: Google Edge Router MAC
+                 │
+                 ▼
+[ Google Server ]
