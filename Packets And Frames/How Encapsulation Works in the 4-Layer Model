@@ -1,0 +1,13 @@
+[ 4. Application ]     "GET / HTTP/1.1" (Data)
+                              │
+                              ▼  Adds TCP Port & Sequence #
+[ 3. Transport ]       [ TCP Header | Data ]  (Segment)
+                              │
+                              ▼  Adds Source & Destination IP
+[ 2. Internet ]        [ IP Header  | TCP Header | Data ]  (Packet)
+                              │
+                              ▼  Adds MAC Addresses & Checksum
+[ 1. Network Interface][ MAC Header | IP Header | TCP Header | Data | CRC ] (Frame)
+                              │
+                              ▼
+                       Converted to binary bits over Wi-Fi / Cable
