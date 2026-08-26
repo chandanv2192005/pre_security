@@ -1,0 +1,13 @@
+The OS Transport stack (e.g., TCP engine) inspects the Segment:
+
+Port Identification: It reads the Destination Port (e.g., Port 51234) to find which active process or socket owns this traffic.
+
+Sequence & Flow Control (for TCP):
+
+Checks the Sequence Number to place this chunk into the correct order with other received segments.
+
+Sends a TCP ACK back to the sender confirming receipt.
+
+Buffers out-of-order chunks until missing pieces arrive.
+
+De-encapsulation: The TCP header is stripped away once the full payload stream is reassembled.
