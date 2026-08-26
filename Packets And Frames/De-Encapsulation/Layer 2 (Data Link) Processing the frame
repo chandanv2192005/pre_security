@@ -5,3 +5,13 @@ Integrity Check (CRC/FCS): The NIC calculates the Cyclic Redundancy Check (CRC) 
 If corrupted: The frame is silently dropped immediately (hardware level).
 
 If valid: Processing continues.
+
+MAC Address Verification: The NIC checks the Destination MAC address:
+
+If it matches the NIC's own hardware MAC address (or a broadcast/multicast address), the NIC accepts it.
+
+If it belongs to a different device, it drops the frame to avoid wasting CPU cycles.
+
+De-encapsulation: The NIC strips off the Layer 2 Ethernet Header and Trailer.
+
+Multiplexing / Protocol Identification: It reads the EtherType field (e.g., 0x0800 for IPv4) to determine which Layer 3 protocol handler in the OS kernel should receive the remaining Packet.
