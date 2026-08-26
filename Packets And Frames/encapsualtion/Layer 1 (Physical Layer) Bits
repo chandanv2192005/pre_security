@@ -1,0 +1,11 @@
+What happens: The entire Frame (headers, data, checksum) is converted into raw binary pulses (0s and 1s).
+
+How it moves:
+
+Over Ethernet cables: Electrical voltage changes.
+
+Over Fiber optics: Pulses of laser light.
+
+Over Wi-Fi: Radio waves modulated at 2.4 GHz or 5 GHz.
+
+The Analogy: The physical road surface and the spinning wheels carrying the truck from point A to point B.
