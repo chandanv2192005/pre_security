@@ -1,0 +1,7 @@
+The reassembled payload—now pure Application Data—is delivered across the socket to the application listening on that port:
+
+If it's encrypted (HTTPS/TLS), the Presentation Layer engine (e.g., OpenSSL/BoringSSL) decrypts the ciphertext using session keys.
+
+If compressed (e.g., Gzip), it decompresses the stream.
+
+The application (e.g., your browser or curl client) parses the raw HTTP/JSON/HTML payload and renders the output.
