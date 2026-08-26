@@ -1,0 +1,7 @@
+The Network Card (NIC) inspects the Ethernet Frame:
+
+Integrity Check (CRC/FCS): The NIC calculates the Cyclic Redundancy Check (CRC) over the frame and compares it to the value in the Frame Trailer.
+
+If corrupted: The frame is silently dropped immediately (hardware level).
+
+If valid: Processing continues.
