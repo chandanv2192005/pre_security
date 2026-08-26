@@ -1,0 +1,5 @@
+Signal Detection: The network interface card (NIC)—such as your Wi-Fi antenna or Ethernet port—detects incoming physical signals (radio waves, light flashes, or electrical voltage changes).
+
+Bit Reconstruction: The hardware converts these physical pulses into a stream of raw binary bits (0s and 1s).
+
+Hand-off: Once a full sequence of bits matching an Ethernet preamble is gathered, the hardware hands the raw frame up to Layer 2.
