@@ -1,0 +1,5 @@
+What it is: The raw content your app creates before any network packaging happens.
+
+The Analogy: The actual text you wrote on a sheet of paper: "Hello, here is my password."
+
+Examples: An HTTP webpage request, an email body, or an image file.
