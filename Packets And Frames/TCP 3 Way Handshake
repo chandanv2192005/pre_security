@@ -1,0 +1,37 @@
+[ Client (Your Laptop) ]                               [ Server (e.g., Google) ]
+         │                                                        │
+         │─────── 1. SYN (Synchronize) ──────────────────────────►│
+         │        "Let's connect. My starting Seq # is 100."      │
+         │                                                        │
+         │◄────── 2. SYN-ACK (Synchronize + Acknowledge) ─────────│
+         │        "Got your 100! Let's connect.                   │
+         │         My starting Seq # is 500. I Ack your 101."     │
+         │                                                        │
+         │─────── 3. ACK (Acknowledge) ──────────────────────────►│
+         │        "Got your 500! I Ack your 501. Ready to send."  │
+         ▼                                                        ▼
+   [ CONNECTION ESTABLISHED: Reliable data transfer begins ]
+
+Step 1: SYN (Synchronize)
+The client sends a packet with the SYN flag turned on.
+
+It generates a random Initial Sequence Number (ISN) (e.g., Seq = 100).
+
+Meaning: "I want to open a connection with you. Here is my starting sequence number so we can track byte orders."
+
+
+Step 2: SYN-ACK (Synchronize-Acknowledge)
+The server receives the request and agrees to connect.
+
+It sets both the SYN and ACK flags.
+
+It acknowledges the client's number by incrementing it (Ack = 101), and generates its own random starting sequence number (e.g., Seq = 500).
+
+Meaning: "I acknowledge receipt of your packet (Ack = 101), and I also want to synchronize with you using my sequence number (Seq = 500)."
+
+Step 3: ACK (Acknowledge)
+The client receives the server's response.
+
+It sends a final packet with just the ACK flag enabled, acknowledging the server's sequence number (Ack = 501).
+
+Meaning: "I received your sequence number. The link is officially open!"
