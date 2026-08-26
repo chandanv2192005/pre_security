@@ -1,0 +1,16 @@
+[ Radio Waves in Air ]
+          │
+          ▼
+    (1. Antenna)           ──► Radio waves induce microscopic AC electrical voltage.
+          │
+          ▼
+    (2. RF Transceiver)    ──► Filters noise and amplifies the weak analog signal.
+          │
+          ▼
+    (3. ADC / Demodulator) ──► Converts analog wave shapes into binary bits (1s & 0s).
+          │
+          ▼
+    (4. MAC Controller)    ──► Assembles bits into a complete Layer 2 Ethernet Frame.
+          │
+          ▼
+    (5. PCIe / USB Bus)    ──► Sends raw data via DMA to computer's RAM/CPU.
