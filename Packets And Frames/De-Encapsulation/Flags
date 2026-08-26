@@ -1,0 +1,11 @@
+🟢 SYN Card: "Hello! I want to start a conversation."
+
+🔵 ACK Card: "Understood! I heard what you just said."
+
+🟡 FIN Card: "I have finished talking and want to say goodbye."
+
+🔴 RST Card: "Error! Hang up immediately, something is wrong."
+
+⚡ PSH Card: "Don't wait! Process this message right away."
+
+🚨 URG Card: "Priority message! Read this before anything else."
