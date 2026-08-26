@@ -1,0 +1,9 @@
+What happens: The operating system chops your big data into smaller, manageable chunks and adds a Layer 4 header.
+
+What gets added:
+
+Port Numbers: Tells the receiving computer which exact application gets the data (e.g., Port 443 for HTTPS, Port 53 for DNS).
+
+Sequence Numbers: Assigns an order number (e.g., "Chunk #1 of 5") so the receiver can rebuild the file without pieces mixing up.
+
+The Analogy: Putting your letter into an envelope and stamping it with: "Office Desk #443 (Port), Page 1 of 5 (Sequence Number)."
