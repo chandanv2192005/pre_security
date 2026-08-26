@@ -1,0 +1,11 @@
+What happens: The IP packet is wrapped inside an Ethernet / Wi-Fi header and trailer.
+
+What gets added:
+
+Source MAC Address: Your laptop's physical Wi-Fi chip address.
+
+Destination MAC Address: Your local router's physical MAC address (the next immediate hop on the wire).
+
+FCS / Trailer (Frame Check Sequence): An error-checking code to verify no radio interference corrupted the data mid-air.
+
+The Analogy: Loading the FedEx box onto a specific local Delivery Van tagged with the license plate of your house and the license plate of the local depot.
