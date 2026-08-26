@@ -1,0 +1,13 @@
+[ Layer 1: Physical ]       10110010... (Bits)
+                                  │ Converts signals to binary
+                                  ▼
+[ Layer 2: Data Link ]     [ MAC Header | Packet | Frame Check ]  ──► Strips MAC & Checksum
+                                  │
+                                  ▼
+[ Layer 3: Network ]       [ IP Header  | Segment ]               ──► Strips IP Header
+                                  │
+                                  ▼
+[ Layer 4: Transport ]     [ TCP Header | Data Payload ]          ──► Strips Port & Sequence #
+                                  │
+                                  ▼
+[ Layer 7: Application ]   "GET / HTTP/1.1" or Image/JSON         ──► Delivered to App
