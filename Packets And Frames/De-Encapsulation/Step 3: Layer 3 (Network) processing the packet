@@ -1,0 +1,9 @@
+The Operating System's IP stack inspects the IP Packet:
+
+IP Destination Verification: The OS checks the Destination IP address:
+
+Verifies the packet is addressed to this host (e.g., 192.168.1.8).
+
+Header Checksum & Options: Verifies the IP header checksum for transmission errors and checks flags (such as reassembling fragmented IP packets if needed).
+
+De-encapsulation: The OS strips off the Layer 3 IP Header.
