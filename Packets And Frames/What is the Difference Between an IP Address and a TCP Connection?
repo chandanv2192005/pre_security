@@ -1,0 +1,11 @@
+P Address (The Road Map / Building Address):
+
+Tells the network where the building is.
+
+IP does not care if the building is on fire, if anyone is inside, or if the package got dropped in the mud. Its only job is routing from Point A to Point B.
+
+TCP Connection (The Phone Call / Agreement Between People):
+
+Tells the applications how to talk reliably.
+
+Once the road exists (thanks to IP), TCP makes sure both computers agree to talk, numbers every piece of data, and asks for confirmation (ACK) so nothing gets lost.
