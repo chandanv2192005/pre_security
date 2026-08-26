@@ -1,0 +1,7 @@
+The 3-Way Handshake establishes the synchronized tracking system that makes TCP reliable:
+
+Sequence Numbers: Every chunk of data sent during the session gets numbered sequentially. If packets arrive out of order, the receiver reorders them correctly.
+
+Positive Acknowledgments (ACKs): For every packet the server receives, it sends an ACK back. If the sender does not get an ACK within a set timeout window (RTO - Retransmission Timeout), it automatically retransmits the missing packet.
+
+Flow Control: During the handshake, both devices announce their Window Size, which prevents a fast sender from overwhelming a slower receiver's memory buffer.
