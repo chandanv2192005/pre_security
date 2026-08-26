@@ -1,0 +1,13 @@
+What happens: The Segment is wrapped inside an IP header.
+
+What gets added:
+
+Source IP Address: 192.168.1.8 (Where this originated).
+
+Destination IP Address: 142.250.190.46 (The global destination across the internet).
+
+TTL (Time to Live): Hop counter to prevent infinite routing loops.
+
+The Analogy: Placing the office envelope inside a FedEx postal box with your home address and Google's data center street address printed on the outside.
+
+4
