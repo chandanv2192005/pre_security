@@ -1,0 +1,50 @@
+Because TCP is a full-duplex connection (meaning both devices can send and receive data at the exact same time), closing a connection cleanly requires both sides to shut down their half of the conversation independently.
+
+[ Client (Your Laptop) ]                                       [ Server (Google) ]
+         │                                                              │
+         │─────── 1. FIN (Seq = u) ────────────────────────────────────►│
+         │        "I'm done sending data."                              │
+         │                                                              │
+         │◄────── 2. ACK (Ack = u + 1) ─────────────────────────────────│
+         │        "Understood. Your side is closed."                    │
+         │                                                              │
+         │        (Server finishes sending remaining buffered data)     │
+         │                                                              │
+         │◄────── 3. FIN (Seq = w, Ack = u + 1) ────────────────────────│
+         │        "I am done sending data now too."                     │
+         │                                                              │
+         │─────── 4. ACK (Ack = w + 1) ────────────────────────────────►│
+         │        "Got it! Connection fully terminated."                │
+         │                                                              │
+   [ TIME_WAIT ]                                                    [ CLOSED ]
+  (Waits ~60-120s)
+         │
+     [ CLOSED ]
+
+
+tep 1: Client sends FIN
+The client has no more requests or data to send.
+
+It sends a packet with the FIN flag = 1 (e.g., Seq = u).
+
+State change: Client enters FIN_WAIT_1.
+
+
+tep 2: Server sends ACK
+The server acknowledges the client’s request to close by sending an ACK (Ack = u + 1).
+
+State change: Client enters FIN_WAIT_2; Server enters CLOSE_WAIT.
+
+Important (Half-Close): The client cannot send new data anymore, but it can still receive any pending data the server is finishing up sending.
+
+
+Step 3: Server sends FIN
+Once the server has delivered all remaining data in its buffer, it sends its own FIN packet (Seq = w).
+
+State change: Server enters LAST_ACK.
+
+
+Step 4: Client sends ACK
+The client sends a final ACK (Ack = w + 1) confirming it received the server's FIN.
+
+State change: Server receives the ACK and immediately becomes CLOSED.
