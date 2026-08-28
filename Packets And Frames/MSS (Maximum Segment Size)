@@ -1,0 +1,5 @@
+The maximum amount of real data your app can pack into one packet is called the MSS (Maximum Segment Size)
+
+mss = mtu - (ip header length + tcp header length)
+
+mss = 1500 - (20+20) = 1460 bytes, max data in one payload
