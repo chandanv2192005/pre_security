@@ -1,0 +1,8 @@
+1. Read Destination IP (Google: 142.250.190.46)
+               2. Check Routing Table: "Next hop is Router B at 203.0.113.2"
+               3. Look up Router B's MAC address in ARP cache
+                                      │
+                                      ▼
+[ Router A ] ──────────────────────────────────────────────────► [ Router B ]
+             • Layer 3 (Inside):  Dest IP = 142.250.190.46
+             • Layer 2 (Outside): Dest MAC = Router B's MAC
