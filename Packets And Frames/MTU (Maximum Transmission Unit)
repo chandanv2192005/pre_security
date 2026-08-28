@@ -1,0 +1,10 @@
+MTU (Maximum Transmission Unit) is the largest single data payload an Ethernet network card can physically send in one Layer 2 frame without fragmenting it. For standard Ethernet and Wi-Fi, the default MTU is 1500 bytes.
+
+┌─────────────────────────────────────────────────────────────────────────────┐
+│ ETHERNET FRAME                                                              │
+│ [ 14-byte Header ]  [                      1500-BYTE MTU PAYLOAD                      ] [ 4-byte CRC ]
+│ (MACs + EtherType)  ┌─────────────────────────────────────────────────────────┐ (Trailer)   
+│                     │ IP HEADER    │ TCP HEADER   │ APPLICATION DATA PAYLOAD  │             
+│                     │ (20 bytes)   │ (20 bytes)   │ (Max MSS = 1460 bytes)    │             
+│                     └─────────────────────────────────────────────────────────┘             
+└─────────────────────────────────────────────────────────────────────────────┘
