@@ -1,0 +1,10 @@
+┌────────────────────────────────────────────────────────┐
+│ IP Header                                              │
+│ (Source IP, Destination IP, TTL, Protocol...)          │
+├────────────────────────────────────────────────────────┤
+│ IP "DATA" (Payload)                                    │
+│   ├── TCP Header                                       │
+│   │   (Source Port, Destination Port, Flags, Seq...)   │
+│   └── TCP "DATA" (Payload)                             │
+│         └── Application Data ("GET /index.html")       │
+└────────────────────────────────────────────────────────┘
