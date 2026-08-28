@@ -1,0 +1,5 @@
+Root Nameserver (.):
+
+The top of the DNS hierarchy. There are 13 logical root server addresses worldwide.
+
+It reads the end of the domain (.com, .org, .edu) and points the resolver to the correct TLD server.
