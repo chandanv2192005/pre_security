@@ -1,0 +1,11 @@
+Local Browser Cache: The browser checks its own internal cache: "Did we visit google.com recently?"
+
+OS / Hosts File Cache: If not in the browser, the OS checks local system cache and the /etc/hosts file.
+
+DNS Query Packet (UDP Port 53): If not found locally, your OS creates a UDP datagram addressed to your configured DNS server (192.168.1.1 or 8.8.8.8) on Destination Port 53.
+
+Recursive Resolution: The recursive resolver traverses Root $\rightarrow$ TLD $\rightarrow$ Authoritative servers.
+
+Answer Cached & Returned: The resolver caches the result according to its TTL (Time to Live) and hands the IP back to your OS.
+
+Connection Starts: Now that your laptop has the destination IP, it can initiate the TCP 3-Way Handshake to port 443.
