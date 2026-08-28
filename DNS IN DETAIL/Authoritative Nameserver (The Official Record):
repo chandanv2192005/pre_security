@@ -1,0 +1,5 @@
+Authoritative Nameserver (The Official Record):
+
+The final authority (e.g., ns1.google.com).
+
+It holds the actual DNS records and returns the definitive IP address: 142.250.190.46.
