@@ -1,0 +1,5 @@
+TLD (Top-Level Domain) Nameserver (.com):
+
+Manages all domains sharing the same extension (e.g., all .com or .net websites).
+
+It directs the resolver to the specific authoritative server that owns the target domain.
