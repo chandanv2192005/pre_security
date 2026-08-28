@@ -1,0 +1,10 @@
+[ Your Laptop ]
+       │
+       ▼ (1. "What is the IP of www.google.com?")
+[ Recursive Resolver (ISP / 8.8.8.8) ] ──► The Librarian searching on your behalf
+       │
+       ├────► [ Root Nameserver (.) ]          ──► "I don't know, ask the .com server"
+       │
+       ├────► [ TLD Nameserver (.com) ]        ──► "I don't know, ask Google's nameserver"
+       │
+       └────► [ Authoritative Nameserver ]    ──► "I own google.com! The IP is 142.250.190.46"
