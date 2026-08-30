@@ -1,0 +1,13 @@
+┌────────────────────────────────────────────────────────┐
+│  PUBLIC DNS SERVER (e.g., 8.8.8.8 or 1.1.1.1)          │
+│                                                        │
+│   ├── 1. Listening Service (UDP/TCP Port 53)           │
+│   │      Receives your question: "Where is google.com?"│
+│   │                                                    │
+│   ├── 2. Resolver Cache (Internal Memory/RAM)          │
+│   │      "Do I already have this saved from earlier?"  │
+│   │                                                    │
+│   └── 3. Recursive Engine                              │
+│          If missing, goes out and queries              │
+│          Root ➔ TLD ➔ Authoritative servers            │
+└────────────────────────────────────────────────────────┘
