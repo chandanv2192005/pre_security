@@ -1,0 +1,9 @@
+What it does: The exact opposite of an A record—it maps an IP address back to a domain name (Reverse DNS lookup).
+
+The Analogy: Caller ID on your phone. When a number calls, your phone looks up the number to confirm the caller's business name.
+
+sneakerhub.com Setup: Configured on your hosting provider's network for IP 198.51.100.25:
+
+Plaintext
+25.100.51.198.in-addr.arpa.    3600    IN    PTR    mail.sneakerhub.com.
+Result: When your server sends an email, the recipient's mail filter does a reverse lookup on the sending IP. If the PTR record matches mail.sneakerhub.com, it passes anti-spam checks.
