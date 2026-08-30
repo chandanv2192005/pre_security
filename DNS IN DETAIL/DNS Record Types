@@ -1,0 +1,1 @@
+An authoritative DNS server manages a text configuration file called a Zone File. Inside this file, instructions are categorized into specific Record Types. Each record type instructs incoming network queries on how to route different kinds of traffic—like website visitors, incoming emails, subdomains, or domain ownership verifications.
