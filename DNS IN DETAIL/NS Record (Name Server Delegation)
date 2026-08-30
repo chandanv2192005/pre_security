@@ -1,0 +1,9 @@
+What it does: Identifies which authoritative nameservers hold the master DNS records for the domain zone.
+
+The Analogy: The sign at the registrar office saying: "The official files for SneakerHub are stored at Cloudflare's records vault."
+
+sneakerhub.com Setup: You bought your domain at GoDaddy, but you manage your live DNS records on Cloudflare:
+
+Plaintext
+sneakerhub.com.    86400    IN    NS    ns1.cloudflare.com.
+sneakerhub.com.    86400    IN    NS    ns2.cloudflare.com.
