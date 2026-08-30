@@ -1,0 +1,13 @@
+[ Browser Cache ]
+       │ (Cache Miss)
+       ▼
+[ Operating System Cache / Hosts File ]
+       │ (Cache Miss)
+       ▼
+[ Home Router Cache ]
+       │ (Cache Miss)
+       ▼
+[ Recursive Resolver Cache (ISP / Public DNS like 8.8.8.8) ]
+       │ (Cache Miss)
+       ▼
+[ Global DNS Hierarchy (Root ➔ TLD ➔ Authoritative) ]
