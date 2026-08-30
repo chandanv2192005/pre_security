@@ -1,0 +1,8 @@
+What it does: Maps a domain name directly to a 32-bit IPv4 address.
+
+The Analogy: The physical street address of your flagship brick-and-mortar store.
+
+sneakerhub.com Setup: Your web server runs on AWS EC2 at IPv4 address 198.51.100.25.
+
+Plaintext
+sneakerhub.com.    300    IN    A    198.51.100.25
