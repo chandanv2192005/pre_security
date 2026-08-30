@@ -1,0 +1,9 @@
+What it does: Points an alias domain (subdomain) to another domain name, rather than an IP. The resolver must perform a second lookup on the target domain.
+
+The Analogy: A forwarding address. Instead of listing an address for your pop-up shop, you say: "Our shop is inside the Shopify Shopping Mall."
+
+sneakerhub.com Setup: You want shop.sneakerhub.com to point to your Shopify store without having to manage Shopify's changing IP addresses.
+
+Plaintext
+shop.sneakerhub.com.    3600    IN    CNAME    shops.myshopify.com.
+Important Rule: You cannot put a CNAME on a root apex domain (sneakerhub.com), only on subdomains (shop.sneakerhub.com, [www.sneakerhub.com](https://www.sneakerhub.com)).
