@@ -1,0 +1,9 @@
+What it does: Maps a domain directly to a 128-bit IPv6 address.
+
+The Analogy: A modern high-precision GPS coordinate for newer delivery vehicles that don't use old street signs.
+
+sneakerhub.com Setup: Your server also supports modern IPv6 routing.
+
+Plaintext
+sneakerhub.com.    300    IN    AAAA    2001:db8:85a3::8a2e:370:7334
+Result: Smartphones on modern 5G networks connect directly over native IPv6 without IPv4 translation overhead.
