@@ -1,0 +1,14 @@
+What it does: Stores arbitrary text strings. It is primarily used for domain ownership verification and email anti-spoofing protocols (SPF, DKIM, DMARC).
+
+The Analogy: An official notary stamp on your business letterhead proving that letters genuinely originated from your office and not an imposter.
+
+sneakerhub.com Setup:
+
+A. SPF (Sender Policy Framework): Declares that only Google Workspace servers are permitted to send emails from @sneakerhub.com:
+
+Plaintext
+sneakerhub.com.    3600    IN    TXT    "v=spf1 include:_spf.google.com ~all"
+B. Site Verification: Proving you own the domain to Google Search Console:
+
+Plaintext
+sneakerhub.com.    3600    IN    TXT    "google-site-verification=4kZ9mP7xQ8y2w"
