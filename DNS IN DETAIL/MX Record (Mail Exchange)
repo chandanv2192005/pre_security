@@ -1,0 +1,10 @@
+What it does: Directs incoming email messages to the specific mail servers handling mail for your domain. It includes a Priority Value (lower number = higher priority).
+
+The Analogy: Setting up a dedicated mailroom loading dock and assigning a primary dock (Priority 1) and a backup dock (Priority 5) in case the first is busy.
+
+sneakerhub.com Setup: You use Google Workspace to receive emails at support@sneakerhub.com.
+
+Plaintext
+sneakerhub.com.    3600    IN    MX    1     aspmx.l.google.com.
+sneakerhub.com.    3600    IN    MX    5     alt1.aspmx.l.google.com.
+Result: When a customer sends an email to sales@sneakerhub.com, their email server queries the MX records and delivers the message straight to Google's mail servers.
