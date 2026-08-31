@@ -1,0 +1,7 @@
+The HTTP Request (Client $\rightarrow$ Server)When you navigate to [https://example.com/profile](https://example.com/profile), your browser sends raw text formatted like this:HTTPGET /profile HTTP/1.1
+Host: example.com
+User-Agent: Mozilla/5.0 (Macintosh; Apple Silicon)
+Accept: text/html,application/xhtml+xml
+Authorization: Bearer eyJhbGciOi...
+Cookie: session_id=abc123xyz
+Connection: keep-alive
