@@ -1,0 +1,7 @@
+When you log in with your credentials via POST /login, the server generates a unique session token.
+
+The server attaches a header: Set-Cookie: session_id=98765; HttpOnly; Secure; SameSite=Strict.
+
+For every subsequent request, your browser automatically appends: Cookie: session_id=98765
+
+The server validates the cookie to verify identity without asking for login credentials on every click.
