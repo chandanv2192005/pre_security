@@ -1,0 +1,15 @@
+The server processes the request and responds:
+
+HTTP
+HTTP/1.1 200 OK
+Date: Sun, 30 Aug 2026 13:15:00 GMT
+Server: nginx/1.24.0
+Content-Type: text/html; charset=UTF-8
+Content-Length: 1420
+Set-Cookie: session_id=abc123xyz; Path=/; Secure; HttpOnly
+
+<!DOCTYPE html>
+<html>
+  <head><title>Profile</title></head>
+  <body><h1>Welcome back!</h1></body>
+</html>
