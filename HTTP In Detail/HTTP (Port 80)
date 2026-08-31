@@ -1,0 +1,1 @@
+HTTP (Port 80): Plain-text transmission. Anyone on your local Wi-Fi or ISP network can read passwords, session cookies, and private messages using Wireshark.
