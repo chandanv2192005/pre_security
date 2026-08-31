@@ -1,0 +1,7 @@
+HTTPS (Port 443): HTTP wrapped inside a TLS (Transport Layer Security) encryption tunnel.
+
+Confidentiality: Scrambled ciphertext via symmetric encryption (AES-GCM/ChaCha20).
+
+Integrity: Digital signatures prevent in-transit tampering.
+
+Authentication: Digital certificates verify that google.com is truly Google's verified server.
