@@ -1,0 +1,7 @@
+High Availability & Fault Tolerance: If one server catches fire or crashes, the load balancer detects it instantly and routes users to surviving servers with zero downtime.
+
+Scalability (Horizontal Scaling): When traffic spikes during a flash sale, add 10 new servers behind the load balancer without changing your domain's public IP address.
+
+SSL/TLS Termination: Offloads heavy cryptographic decryption from backend application servers so they can focus purely on processing business logic.
+
+Health Checks: Continuously pings servers (e.g., GET /health) every few seconds; if a server fails three consecutive checks, it is temporarily pulled from the pool.
