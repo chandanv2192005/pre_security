@@ -4,7 +4,7 @@ The Analogy: Renting a standard car. The rental agency provides the vehicle, eng
 What You Get: Empty virtual hardware — raw virtual machines, hard drives, and network routers.
 
 Who Manages What:
-
+ 
 Provider handles: Physical servers, cooling, electricity, hypervisors, and data center security.
 
 You handle: Installing/updating the Operating System (Linux/Windows), applying security patches, configuring firewalls, and installing software.
