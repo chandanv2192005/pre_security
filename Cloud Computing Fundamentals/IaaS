@@ -8,7 +8,7 @@ Who Manages What:
 Provider handles: Physical servers, cooling, electricity, hypervisors, and data center security.
 
 You handle: Installing/updating the Operating System (Linux/Windows), applying security patches, configuring firewalls, and installing software.
-
+ 
 Real-World Examples:
 
 Amazon EC2 (AWS): Spinning up a blank Ubuntu virtual server.
