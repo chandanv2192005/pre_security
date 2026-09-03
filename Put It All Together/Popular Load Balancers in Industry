@@ -1,0 +1,5 @@
+Software Load Balancers / Reverse Proxies: Nginx, HAProxy, Envoy, Traefik.
+
+Cloud Managed Services: AWS ALB/NLB, Google Cloud Load Balancing, Cloudflare Load Balancing.
+
+Hardware Appliances: F5 BIG-IP, Citrix ADC (used in high-security enterprise and banking networks).
