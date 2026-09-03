@@ -1,0 +1,2 @@
+[ Layer 4: Network Load Balancer ]      Routes based ONLY on IP & Port (Fast, Protocol-Agnostic)
+[ Layer 7: Application Load Balancer ]  Routes based on HTTP Headers, Cookies, URL Paths (Smart)
