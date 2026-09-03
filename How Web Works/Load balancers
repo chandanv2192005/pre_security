@@ -1,0 +1,3 @@
+A Load Balancer acts as a reverse-proxy traffic cop sitting in front of backend servers, distributing incoming network or application traffic evenly across a pool of healthy target servers (a "server farm").
+
+Without a load balancer, a surge of traffic or a single server crash takes down the entire application.
