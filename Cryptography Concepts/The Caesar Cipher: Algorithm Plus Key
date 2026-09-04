@@ -1,0 +1,44 @@
+To make this concrete, we'll use something called the Caesar cipher. It's straightforward, which makes it perfect for learning (but terrible for real security—more on that in a minute).
+
+The Caesar cipher is named after Julius Caesar, who reportedly used this technique over 2000 years ago to send military messages. Even back then, people understood the value of keeping communications secret.
+
+How It Works
+
+The Caesar cipher shifts each letter in your message by a fixed number of positions in the alphabet. That fixed number is your key.A Caesar cipher wheel showing how letters are shifted by a key of +3. The outer ring lists the plaintext alphabet, and the inner ring shows the corresponding ciphertext letters three positions ahead.
+
+Let's say the key is 3:
+
+A shifts forward 3 spots to become D
+B becomes E
+C becomes F
+and so on.
+X becomes A (it wraps around to the start)
+Y becomes B
+Z becomes C
+If Alice wants to encrypt HELLO with a key of 3:
+
+H → K
+E → H
+L → O
+L → O
+O → R
+So HELLO becomes KHOOR.
+
+To decrypt KHOOR, Bob shifts each letter backwards by 3:
+
+K → H
+H → E
+O → L
+O → L
+R → O
+He gets HELLO again. Magic? Nope. Math.
+
+With the Caesar cipher:
+
+The algorithm (shift each letter by some number) is completely public. Everyone can know how it works.
+The key (the number 3 in our example) is what's secret. Only Alice and Bob know this number.
+If someone intercepts KHOOR but doesn't know the key, they'd have to try all 25 possible shifts (1 through 25) to find the right one. For a human, that's tedious; for a computer, that takes about a millisecond.
+
+Here's the thing: The Caesar cipher is not secure and is never used in real systems. It's way too easy to compromise and decrypt messages. We're using it here purely because it's simple to understand and shows you how keys and algorithms work together.
+
+Real algorithms like AES (Advanced Encryption Standard) are vastly more complex and secure. But they follow the same basic idea: algorithm + key + plaintext → ciphertext.
