@@ -1,0 +1,21 @@
+Think about a physical lockbox:
+
+The algorithm is how the lock works. Anyone can see you insert a key and turn it, hence it's not secret.
+The key is your specific metal key. Only people with that exact key can open your box.
+The plaintext is the letter inside the box.
+The ciphertext is that locked box travelling through the postal system.
+Nobody tries to hide how locks work to make them secure. Security comes from keeping your key private and this same principle applies to cryptography. Algorithms are usually public and tested by experts worldwide. The security comes from keeping keys secret.
+
+To put it more practically, Alice wants to send Bob a secret letter, but it must go through the public postal system, where anyone could open it and read it.
+
+Here's what she does:
+
+She writes her message (the plaintext) on paper.
+She puts the letter in a sturdy lockbox.
+She locks it with a padlock using her key.
+She sends the locked box (the ciphertext) through the mail.
+When Bob gets the box, he uses his copy of the same key to unlock it and read the message. Anyone who intercepts the box along the way sees a locked metal box. Without the key, it's useless. The message stays private.
+
+That's symmetric encryption in a nutshell: one key locks the box, the same key unlocks it.
+
+Illustration of symmetric encryption. Alice and Bob each hold a matching key. Alice sends a locked box labeled "CIPHERTEXT" through a cloud filled with masked attackers. A white arrow shows the box reaching Bob, who can open it with his copy of the same key.
