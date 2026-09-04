@@ -1,0 +1,10 @@
+By now, you have learned about the CIA Triad (Confidentiality, Integrity, and Availability) and how each of its pillars play their role in protecting the digital information. However, CIA is not just a set of definitions, it's a security mindset of cyber security professionals. When a security incident occurs, it is often explained in terms of what was affected. Security professionals generally by asking questions like:
+
+Was sensitive data exposed to unauthorized individuals?
+
+Was data being modified without permission?
+
+Were systems or services unavailable to users when they needed? 
+
+Having a clear understanding of each component of the CIA Triad enables one to assess the impact of any incident and decide on an appropriate response.
+
