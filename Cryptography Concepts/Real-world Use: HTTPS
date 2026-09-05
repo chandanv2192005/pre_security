@@ -1,0 +1,16 @@
+[ Your Laptop / Phone ]                                [ Amazon's Server ]
+          │                                                     │
+          │ ─── 1. "Hi Amazon, I want to connect!" ──────────►  │
+          │                                                     │
+          │ ◄── 2. "Here is my PUBLIC KEY (Locking Key)" ─────  │
+          │                                                     │
+          │  3. Your laptop invents a temporary password.       │
+          │     Locks it with Amazon's Public Key.              │
+          │                                                     │
+          │ ─── 4. Sends the locked password across internet ─► │
+          │                                                     │
+          │                                                     │ 5. Amazon unlocks it using
+          │                                                     │    its secret PRIVATE KEY.
+          ▼                                                     ▼
+     Both your laptop and Amazon now share the secret password safely.
+     Hackers listening in on the Wi-Fi only saw encrypted nonsense!
