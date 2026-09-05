@@ -1,0 +1,7 @@
+Bob creates a public key and a private key on his computer. He keeps the private key to himself and shares the public key with the world.
+Alice grabs Bob's public key (maybe from his website or a key server).
+Alice encrypts her message using Bob's public key and sends it off.
+Bob receives it and decrypts it using his private key.
+At no point did they need to exchange a key over the network secretly. The only key that travelled publicly was Bob's public key, which isn't secret by design. That's the solution to the key distribution problem.
+
+Alice and Bob using a public and private key pair to exchange messages
