@@ -1,0 +1,12 @@
+Have you ever wondered how your operating system knows that an update is genuinely from Apple or Microsoft and not malware created by a hacker?
+
+Plaintext
+[ Apple / Software Developer ]
+  • Writes an OS update file.
+  • Locks a digital stamp using Apple's PRIVATE KEY.
+         │
+         ▼
+[ Your Device ]
+  • Downloads the update file from the internet.
+  • Reads the stamp using Apple's PUBLIC KEY (which comes pre-installed in the OS).
+  • If the public key unlocks it, your device knows 100% that the code came from Apple and was never modified in transit.
