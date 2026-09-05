@@ -1,0 +1,20 @@
+The Key Distribution Problem
+In the last task, we saw how symmetric encryption works. Alice and Bob use the same key for both encryption and decryption. It's fast and efficient.
+
+However, we also hit a wall: how do they share that key safely in the first place?
+
+If they send it in plaintext, an attacker grabs it. If they encrypt the key, they need another key, which brings us right back to the same problem.
+
+Enter asymmetric encryption.
+
+Two Keys Instead of One
+Asymmetric encryption uses two mathematically linked keys:
+
+A public key that anyone can know and use.
+A private key that only one person keeps secret.
+Here's the clever part:
+
+If you encrypt something with someone's public key, only their private key can decrypt it.
+If you encrypt something with your private key, anyone with your public key can decrypt it (this is primarily used for digital signatures, which we won't delve into here).
+The two keys are connected by some serious maths, but it would take an ordinary computer hundreds or even thousands of years to recover the private key from the public key. This computational difficulty is what makes asymmetric encryption secure.
+
