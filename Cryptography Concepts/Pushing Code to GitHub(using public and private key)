@@ -1,0 +1,9 @@
+When you push code from your terminal to GitHub:
+
+You paste your Public Key into your GitHub account profile settings.
+
+When you run git push origin main, Git uses your laptop's local Private Key to sign the transaction.
+
+GitHub checks the signature against the public key on your account:
+
+"The signature matches the public key on file for this user and then acces granted
