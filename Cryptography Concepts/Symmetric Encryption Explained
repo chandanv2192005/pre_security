@@ -1,0 +1,20 @@
+The Caesar cipher is an example of symmetric encryption. This means that:
+
+The same key encrypts (locks) and decrypts (unlocks) the message.
+Both sender and receiver need a copy of that key.
+The key has to stay secret from everyone else.
+Some of the benefits of using symmetric encryption are:
+
+It's fast. Symmetric algorithms can churn through huge amounts of data really quickly.
+It's efficient. Perfect for encrypting files, hard drives, and network traffic where speed matters.
+However, there's a catch to this efficiency:
+
+How do Alice and Bob share that key safely in the first place?
+
+If they send the key over the internet in plain view, an eavesdropper can grab it. Then that eavesdropper can decrypt every future message.
+
+You might think, "Just encrypt the key!",  but then you'd need another key to encrypt that key, and then another key for that key, and you see the problem. Infinite regress.
+
+This is called the key distribution problem, and it's the Achilles' heel of symmetric encryption when used alone.
+
+We'll solve this in the next task with asymmetric encryption—a clever approach that uses two different keys instead of one.
