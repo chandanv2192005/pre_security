@@ -1,0 +1,21 @@
+To understand what a wordlist is, open a plain text file (like Notepad or a .txt file) in your mind. That is literally all it is.
+
+1. What Does a "Wordlist" Look Like Inside?
+A wordlist is not fancy code. It is just a massive .txt file containing thousands of words written one after another, each on its own line.
+
+If you opened /usr/share/wordlists/dirbuster/directory-list.txt in a text editor, you would see this:
+
+admin
+login
+images
+uploads
+dashboard
+secret
+test
+backup
+database
+contact
+products
+... (thousands more words)
+
+Cybersecurity professionals and Linux distributions (like Kali Linux) compile these lists by analyzing millions of real websites to find the most commonly used folder names developers create
