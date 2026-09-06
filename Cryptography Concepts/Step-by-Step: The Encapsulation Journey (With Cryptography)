@@ -1,0 +1,20 @@
+Step 1: Layer 7 (Application creates plain data)
+Your browser prepares the message:
+username=john&password=SecretPassword123
+
+Step 2: Layer 6 / TLS (Cryptography locks the box)
+Before that message ever touches TCP or IP, the TLS layer steps in:
+
+It takes your plain text (SecretPassword123).
+
+It encrypts it using the cryptographic keys established with the server.
+
+The output becomes completely unreadable binary ciphertext: 7f a8 3c d9 41 e2 ...
+
+Step 3: Layer 4 (Transport / TCP Encapsulation)
+TCP receives the ciphertext. TCP has no idea what the data means—it just takes the scrambled blob, slaps on the TCP header (Source Port: 51234, Destination Port: 443), and chops it into segments.
+
+Step 4: Layer 3 (Network / IP Encapsulation)The IP layer slaps on the IP header (Your IP $\rightarrow$ Bank IP).
+
+Step 5: Layer 2 (Data Link / Ethernet Encapsulation)
+The network card slaps on the MAC addresses and pushes the bits onto the Wi-Fi or cable.
