@@ -1,0 +1,27 @@
+Gobuster is a computer program—it has no imagination and cannot "invent" words out of thin air. It needs a cheat sheet.
+
+When you pass the flag:
+-w /usr/share/wordlists/dirbuster/directory-list.txt
+
+-w stands for "Wordlist". It tells Gobuster: "Hey, use the following file as your cheat sheet."
+
+The path /usr/share/wordlists/... tells Gobuster where on your Linux hard drive that text file is saved.
+
+The Step-by-Step Loop
+
+Once Gobuster has that text file, it reads it like a checklist from top to bottom:
+
+Plaintext
+1. Reads Line 1 ("admin"):
+   Constructs URL: http://www.onlineshop.thm/admin
+   Checks server  --> Found!
+
+2. Reads Line 2 ("login"):
+   Constructs URL: http://www.onlineshop.thm/login
+   Checks server  --> Found!
+
+3. Reads Line 3 ("images"):
+   Constructs URL: http://www.onlineshop.thm/images
+   Checks server  --> 404 (Ignored)
+
+...and continues through all 20,000 lines in a matter of seconds.
