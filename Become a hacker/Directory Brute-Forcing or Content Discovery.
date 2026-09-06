@@ -1,0 +1,20 @@
+The Vulnerability You Are Looking For: Sometimes developers create sensitive, secret pages (like an internal employee login, a database viewer, or a control panel) and simply assume: "Nobody will find this because there is no link to it on the home page."
+
+The Reality: Attackers don't rely on clicking links. They guess common URL paths directly into the browser. Finding hidden administrative areas this way is a fundamental reconnaissance technique called Directory Brute-Forcing or Content Discovery.
+
+The Rules of the Exercise
+You have a base URL: [http://www.onlineshop.thm/](http://www.onlineshop.thm/)
+
+You have a checklist of 5 common paths to append to the end:
+
+/sitemap
+
+/mail
+
+/register
+
+/login
+
+/admin
+
+You test them one by one in the browser address bar.
