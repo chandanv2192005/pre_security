@@ -1,0 +1,8 @@
+Once you hit Enter, Gobuster does the exact same thing your web browser does, but over HTTP at machine speed:
+
+Reads "admin"     ──► Sends: GET http://www.onlineshop.thm/admin     ──► Server replies: 200 OK  (Gobuster prints this!)
+Reads "banana"    ──► Sends: GET http://www.onlineshop.thm/banana    ──► Server replies: 404 Not Found (Gobuster ignores)
+Reads "dashboard" ──► Sends: GET http://www.onlineshop.thm/dashboard ──► Server replies: 301 Redirect   (Gobuster prints this!)
+Reads "secret"    ──► Sends: GET http://www.onlineshop.thm/secret    ──► Server replies: 403 Forbidden  (Gobuster prints this!)
+
+Gobuster filters out all the useless 404 Not Found pages and only prints the paths that actually exist.
