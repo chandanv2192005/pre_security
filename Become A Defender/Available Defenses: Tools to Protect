@@ -1,0 +1,11 @@
+System or Infrastructure Component	What Could Go Wrong	Defenses You'll Use
+Employee Devices	Someone clicks a bad link or downloads unsafe software	Antivirus to detect bad programs
+Regular software updates
+Web Server	Attackers try to break into the website	Only allow safe traffic
+Use secure communication
+Mail Server	Malicious or deceptive emails	Spam filters
+Scan attachments
+Firewall	Strangers from the internet try to break in	Firewall rules that control access
+Block known troublemakers
+The Outside Internet	External threats come from here	Restrict inbound traffic
+Monitor for suspicious activity
