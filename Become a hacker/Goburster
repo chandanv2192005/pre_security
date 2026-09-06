@@ -1,0 +1,11 @@
+gobuster dir --url http://www.onlineshop.thm/ -w /usr/share/wordlists/dirbuster/directory-list.txt
+
+Every piece of this command is an instruction telling Gobuster what to do:
+
+gobuster: The name of the software program.
+
+dir: The mode. Gobuster can search for DNS subdomains, AWS S3 buckets, or web directories. dir tells it: "Search for website directories/folders."
+
+--url [http://www.onlineshop.thm/](http://www.onlineshop.thm/): The target website you are scanning. Gobuster will append each word from your list to the end of this address.
+
+-w /usr/share/wordlists/...: The wordlist flag (-w). This points to a pre-installed text file on Linux containing thousands of common directory names (one per line).
