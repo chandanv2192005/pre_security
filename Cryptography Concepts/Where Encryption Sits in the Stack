@@ -1,0 +1,11 @@
+┌────────────────────────────────────────────────────────┐
+│ Layer 7: Application (HTTP)   "GET /account/balance"   │  <-- Plain readable text
+├────────────────────────────────────────────────────────┤
+│ Layer 6: Presentation (TLS)   [ CRYPTOGRAPHY HAPPENS ] │  <-- Scrambles the text into gibberish
+├────────────────────────────────────────────────────────┤
+│ Layer 4: Transport (TCP)      Port 443, Seq #, Ack #   │
+├────────────────────────────────────────────────────────┤
+│ Layer 3: Network (IP)         Source IP, Dest IP       │
+├────────────────────────────────────────────────────────┤
+│ Layer 2: Data Link (Ethernet) Source MAC, Dest MAC     │
+└────────────────────────────────────────────────────────┘
